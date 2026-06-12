@@ -1,0 +1,44 @@
+:root {
+  --bg: #faf8f4;
+  --ink: #1a1a1a;
+  --ink-soft: #444444;
+  /* Placeholder accent — the real Owner-derived accent is set in #15 (design pass). */
+  --accent: #e8552d;
+  --font-serif: Georgia, 'Times New Roman', serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Print stylesheet skeleton — sections extend this with their own @media print
+   rules. The scrollytelling resting state is already fully composed, so print
+   only needs to neutralize motion and set page geometry. */
+@media print {
+  @page {
+    margin: 1.5cm;
+  }
+  body {
+    background: #fff;
+  }
+}
