@@ -1,0 +1,210 @@
+{
+  "note": "Lifting from reptracker CSVs; non-strength workouts + steps from Apple Health (strength excluded to avoid double-counting). Steps use a single dominant source.",
+  "window": {
+    "from": "2025-06-01",
+    "to": "2026-05-31"
+  },
+  "workoutCategories": [
+    "Walking",
+    "Badminton",
+    "Running",
+    "Cycling",
+    "HIIT",
+    "Other"
+  ],
+  "monthly": [
+    {
+      "month": "2025-06",
+      "liftSessions": 22,
+      "liftVolume": 104381,
+      "liftPRs": 24,
+      "steps": 279262,
+      "workouts": {
+        "Walking": 29,
+        "Badminton": 0,
+        "Running": 0,
+        "Cycling": 0,
+        "HIIT": 0,
+        "Other": 0
+      }
+    },
+    {
+      "month": "2025-07",
+      "liftSessions": 10,
+      "liftVolume": 60478,
+      "liftPRs": 4,
+      "steps": 198429,
+      "workouts": {
+        "Walking": 17,
+        "Badminton": 0,
+        "Running": 0,
+        "Cycling": 0,
+        "HIIT": 0,
+        "Other": 0
+      }
+    },
+    {
+      "month": "2025-08",
+      "liftSessions": 0,
+      "liftVolume": 0,
+      "liftPRs": 0,
+      "steps": 220426,
+      "workouts": {
+        "Walking": 6,
+        "Badminton": 3,
+        "Running": 0,
+        "Cycling": 0,
+        "HIIT": 0,
+        "Other": 1
+      }
+    },
+    {
+      "month": "2025-09",
+      "liftSessions": 0,
+      "liftVolume": 0,
+      "liftPRs": 0,
+      "steps": 267386,
+      "workouts": {
+        "Walking": 10,
+        "Badminton": 2,
+        "Running": 1,
+        "Cycling": 0,
+        "HIIT": 0,
+        "Other": 1
+      }
+    },
+    {
+      "month": "2025-10",
+      "liftSessions": 0,
+      "liftVolume": 0,
+      "liftPRs": 0,
+      "steps": 198651,
+      "workouts": {
+        "Walking": 15,
+        "Badminton": 2,
+        "Running": 0,
+        "Cycling": 0,
+        "HIIT": 0,
+        "Other": 0
+      }
+    },
+    {
+      "month": "2025-11",
+      "liftSessions": 0,
+      "liftVolume": 0,
+      "liftPRs": 0,
+      "steps": 228154,
+      "workouts": {
+        "Walking": 8,
+        "Badminton": 3,
+        "Running": 0,
+        "Cycling": 0,
+        "HIIT": 3,
+        "Other": 0
+      }
+    },
+    {
+      "month": "2025-12",
+      "liftSessions": 0,
+      "liftVolume": 0,
+      "liftPRs": 0,
+      "steps": 197975,
+      "workouts": {
+        "Walking": 5,
+        "Badminton": 0,
+        "Running": 0,
+        "Cycling": 0,
+        "HIIT": 9,
+        "Other": 0
+      }
+    },
+    {
+      "month": "2026-01",
+      "liftSessions": 0,
+      "liftVolume": 0,
+      "liftPRs": 0,
+      "steps": 272717,
+      "workouts": {
+        "Walking": 9,
+        "Badminton": 2,
+        "Running": 0,
+        "Cycling": 0,
+        "HIIT": 7,
+        "Other": 0
+      }
+    },
+    {
+      "month": "2026-02",
+      "liftSessions": 0,
+      "liftVolume": 0,
+      "liftPRs": 0,
+      "steps": 252355,
+      "workouts": {
+        "Walking": 20,
+        "Badminton": 4,
+        "Running": 0,
+        "Cycling": 0,
+        "HIIT": 8,
+        "Other": 0
+      }
+    },
+    {
+      "month": "2026-03",
+      "liftSessions": 0,
+      "liftVolume": 0,
+      "liftPRs": 0,
+      "steps": 374862,
+      "workouts": {
+        "Walking": 39,
+        "Badminton": 3,
+        "Running": 0,
+        "Cycling": 0,
+        "HIIT": 1,
+        "Other": 0
+      }
+    },
+    {
+      "month": "2026-04",
+      "liftSessions": 0,
+      "liftVolume": 0,
+      "liftPRs": 0,
+      "steps": 321752,
+      "workouts": {
+        "Walking": 40,
+        "Badminton": 5,
+        "Running": 0,
+        "Cycling": 0,
+        "HIIT": 0,
+        "Other": 0
+      }
+    },
+    {
+      "month": "2026-05",
+      "liftSessions": 0,
+      "liftVolume": 0,
+      "liftPRs": 0,
+      "steps": 291887,
+      "workouts": {
+        "Walking": 20,
+        "Badminton": 2,
+        "Running": 0,
+        "Cycling": 0,
+        "HIIT": 0,
+        "Other": 0
+      }
+    }
+  ],
+  "liftingCoverage": {
+    "first": "2025-06",
+    "last": "2025-07",
+    "note": "reptracker DB paused after Jul 2025, so logged lifting within the window covers only these months. Later months are genuinely empty, not zero-effort."
+  },
+  "stepsSource": "Gautham’s Apple Watch",
+  "totals": {
+    "liftSessions": 32,
+    "liftVolume": 164859,
+    "liftPRs": 28,
+    "steps": 3103856,
+    "workouts": 275
+  }
+}
