@@ -1,0 +1,66 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: clamp(2rem, 6vh, 5rem) 1.5rem;
+  background: var(--bg);
+}
+
+.inner {
+  max-width: 64rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 320px) 1fr;
+  gap: clamp(1.5rem, 5vw, 4rem);
+  align-items: center;
+}
+
+.portrait {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  object-fit: cover;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12);
+}
+
+.eyebrow {
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.75rem;
+}
+
+.name {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 7vw, 4.5rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin: 0 0 1.5rem;
+}
+
+.lede {
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin: 0 0 1rem;
+  max-width: 42rem;
+}
+
+@media (max-width: 720px) {
+  .inner {
+    grid-template-columns: 1fr;
+  }
+  .portrait {
+    max-width: 240px;
+  }
+}
+
+@media print {
+  .hero {
+    min-height: auto;
+    padding: 1.5rem;
+    break-after: avoid;
+  }
+}
