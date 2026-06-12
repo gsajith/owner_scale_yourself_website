@@ -1,0 +1,191 @@
+{
+  "account": "gsajith",
+  "window": {
+    "from": "2025-06-01T00:00:00.000Z",
+    "to": "2026-05-31T23:59:59.000Z"
+  },
+  "note": "Aggregated via scripts/mine-github.mjs (gh GraphQL, viewer). No credentials stored. Private activity is counts-only.",
+  "monthly": [
+    {
+      "month": "2025-06",
+      "commits": 68,
+      "pullRequests": 0,
+      "reviews": 0,
+      "issues": 0,
+      "privateContributions": 0,
+      "totalContributions": 68
+    },
+    {
+      "month": "2025-07",
+      "commits": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "issues": 0,
+      "privateContributions": 0,
+      "totalContributions": 1
+    },
+    {
+      "month": "2025-08",
+      "commits": 13,
+      "pullRequests": 0,
+      "reviews": 0,
+      "issues": 0,
+      "privateContributions": 18,
+      "totalContributions": 32
+    },
+    {
+      "month": "2025-09",
+      "commits": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "issues": 0,
+      "privateContributions": 0,
+      "totalContributions": 0
+    },
+    {
+      "month": "2025-10",
+      "commits": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "issues": 0,
+      "privateContributions": 6,
+      "totalContributions": 6
+    },
+    {
+      "month": "2025-11",
+      "commits": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "issues": 0,
+      "privateContributions": 8,
+      "totalContributions": 8
+    },
+    {
+      "month": "2025-12",
+      "commits": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "issues": 0,
+      "privateContributions": 0,
+      "totalContributions": 0
+    },
+    {
+      "month": "2026-01",
+      "commits": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "issues": 0,
+      "privateContributions": 0,
+      "totalContributions": 0
+    },
+    {
+      "month": "2026-02",
+      "commits": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "issues": 0,
+      "privateContributions": 0,
+      "totalContributions": 0
+    },
+    {
+      "month": "2026-03",
+      "commits": 0,
+      "pullRequests": 0,
+      "reviews": 0,
+      "issues": 0,
+      "privateContributions": 0,
+      "totalContributions": 0
+    },
+    {
+      "month": "2026-04",
+      "commits": 136,
+      "pullRequests": 0,
+      "reviews": 0,
+      "issues": 0,
+      "privateContributions": 0,
+      "totalContributions": 138
+    },
+    {
+      "month": "2026-05",
+      "commits": 6,
+      "pullRequests": 0,
+      "reviews": 0,
+      "issues": 0,
+      "privateContributions": 487,
+      "totalContributions": 494
+    }
+  ],
+  "inflection": {
+    "month": "2026-05",
+    "defaultLabel": "AI-agent adoption",
+    "note": "Auto-detected as the largest month-over-month commit jump; wording finalized in #6 (curation)."
+  },
+  "publicReposCreatedInWindow": [
+    {
+      "name": "nextword",
+      "createdAt": "2026-05-02T22:35:59Z",
+      "language": "TypeScript",
+      "stars": 0
+    },
+    {
+      "name": "story-scroll",
+      "createdAt": "2026-04-28T03:21:20Z",
+      "language": "TypeScript",
+      "stars": 0
+    },
+    {
+      "name": "recipe-box",
+      "createdAt": "2026-04-13T23:44:33Z",
+      "language": "TypeScript",
+      "stars": 0
+    },
+    {
+      "name": "record-scan",
+      "createdAt": "2025-08-16T01:35:11Z",
+      "language": "TypeScript",
+      "stars": 0
+    },
+    {
+      "name": "jordle",
+      "createdAt": "2025-07-21T21:03:23Z",
+      "language": "JavaScript",
+      "stars": 0
+    }
+  ],
+  "privateReposCreatedInWindowCount": 5,
+  "totalPublicRepos": 67,
+  "languages": [
+    {
+      "name": "TypeScript",
+      "count": 24
+    },
+    {
+      "name": "JavaScript",
+      "count": 24
+    },
+    {
+      "name": "Java",
+      "count": 5
+    },
+    {
+      "name": "HTML",
+      "count": 4
+    },
+    {
+      "name": "Python",
+      "count": 3
+    },
+    {
+      "name": "C#",
+      "count": 2
+    },
+    {
+      "name": "CSS",
+      "count": 1
+    },
+    {
+      "name": "Vim Script",
+      "count": 1
+    }
+  ]
+}
