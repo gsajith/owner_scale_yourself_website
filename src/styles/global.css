@@ -1,14 +1,14 @@
 :root {
   /* Palette sourced from owner.com's 2026 brand CSS. */
   --bg: #f9f3ed; /* warm cream */
-  --surface: #fbf8f5; /* lighter cream for cards */
   --ink: #2c2c2c; /* charcoal */
   --ink-soft: #6f6a63; /* muted warm gray */
   --line: #ddd6ce; /* warm hairline */
-  --accent: #088924; /* Owner brand green */
+  --accent: #088924; /* Owner brand green (chart fills) */
+  --accent-label: #077a20; /* darker green for small text on cream (AA) */
   --accent-deep: #0a3d18; /* deep green (dark hero) */
-  --accent-soft: #4aa86a; /* lighter green for dark backgrounds */
-  /* Secondary pops from Owner's palette, used sparingly in multi-series charts. */
+  --accent-soft: #5cb87a; /* lighter green for text on dark backgrounds (AA) */
+  /* Secondary pops from Owner's palette, used in multi-series charts. */
   --pop-orange: #d73815;
   --pop-blue: #3898ec;
 

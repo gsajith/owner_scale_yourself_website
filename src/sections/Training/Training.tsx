@@ -35,9 +35,9 @@ const shortMonth = (key: string) => MONTHS[Number(key.split('-')[1]) - 1] ?? key
 
 // Category palette harmonized with Owner's brand colors.
 const SERIES: StackSeries[] = [
-  { key: 'Walking', color: '#088924' }, // Owner green
-  { key: 'Badminton', color: '#3898ec' }, // Owner blue
-  { key: 'HIIT', color: '#d73815' }, // Owner orange
+  { key: 'Walking', color: 'var(--accent)' },
+  { key: 'Badminton', color: 'var(--pop-blue)' },
+  { key: 'HIIT', color: 'var(--pop-orange)' },
   { key: 'Running', color: '#0a5a2a' }, // mid green
   { key: 'Cycling', color: '#c5beb7' }, // warm tan
   { key: 'Other', color: '#9a948c' }, // warm gray
