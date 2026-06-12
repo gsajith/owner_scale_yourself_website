@@ -11,7 +11,8 @@
     "lint": "eslint .",
     "prepare-assets": "node scripts/prepare-assets.mjs",
     "mine:github": "node scripts/mine-github.mjs",
-    "pdf": "node scripts/pdf.mjs"
+    "pdf": "node scripts/pdf.mjs",
+    "mine:agent": "node scripts/mine-agent.mjs"
   },
   "dependencies": {
     "@visx/axis": "^3.12.0",
