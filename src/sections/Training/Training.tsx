@@ -17,7 +17,6 @@ interface MonthlyTraining {
 interface TrainingData {
   workoutCategories: string[]
   monthly: MonthlyTraining[]
-  liftingCoverage: { first: string; last: string }
   totals: {
     liftSessions: number
     liftVolume: number

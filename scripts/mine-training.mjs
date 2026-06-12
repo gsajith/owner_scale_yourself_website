@@ -204,7 +204,7 @@ if (stepsSource) {
 }
 
 const monthlyOut = monthKeys.map((k) => ({ month: k, ...monthly.get(k) }))
-const sumWorkouts = (k) =>
+const sumWorkouts = () =>
   CATEGORIES.reduce((s, c) => s + monthlyOut.reduce((a, m) => a + m.workouts[c], 0), 0)
 
 const data = {
