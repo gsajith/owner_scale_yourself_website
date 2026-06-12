@@ -44,10 +44,9 @@ export default function Body() {
     color: COLORS[s.key] ?? 'var(--accent)',
     points: s.points,
   }))
-  const sleepData = data.sleep.monthly.map((m) => ({
-    label: m.label,
-    value: m.avgHours ?? 0,
-  }))
+  const sleepData = data.sleep.monthly
+    .filter((m) => m.avgHours != null)
+    .map((m) => ({ label: m.label, value: m.avgHours as number }))
   const deltaCaption = recomp
     .map((s) => `${s.key.toLowerCase()} ${fmtDelta(s.delta, s.unit)}`)
     .join(', ')
