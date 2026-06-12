@@ -1,0 +1,243 @@
+{
+  "window": {
+    "from": "2025-06-01",
+    "to": "2026-05-31"
+  },
+  "recomposition": {
+    "series": [
+      {
+        "key": "Weight",
+        "unit": "lb",
+        "delta": -15.687777777777768,
+        "points": [
+          {
+            "label": "Jun",
+            "value": 0
+          },
+          {
+            "label": "Jul",
+            "value": null
+          },
+          {
+            "label": "Aug",
+            "value": -0.33450161542585377
+          },
+          {
+            "label": "Sep",
+            "value": 1.1553434635187945
+          },
+          {
+            "label": "Oct",
+            "value": 2.432081711247874
+          },
+          {
+            "label": "Nov",
+            "value": null
+          },
+          {
+            "label": "Dec",
+            "value": null
+          },
+          {
+            "label": "Jan",
+            "value": null
+          },
+          {
+            "label": "Feb",
+            "value": -4.370212231570987
+          },
+          {
+            "label": "Mar",
+            "value": -5.814391560969479
+          },
+          {
+            "label": "Apr",
+            "value": null
+          },
+          {
+            "label": "May",
+            "value": -9.850419300375343
+          }
+        ]
+      },
+      {
+        "key": "Body fat",
+        "unit": "pts",
+        "delta": -4.328205128205131,
+        "points": [
+          {
+            "label": "Jun",
+            "value": 0
+          },
+          {
+            "label": "Jul",
+            "value": null
+          },
+          {
+            "label": "Aug",
+            "value": -1.6336150845253534
+          },
+          {
+            "label": "Sep",
+            "value": 0.9021456436931028
+          },
+          {
+            "label": "Oct",
+            "value": 1.6417425227568099
+          },
+          {
+            "label": "Nov",
+            "value": null
+          },
+          {
+            "label": "Dec",
+            "value": null
+          },
+          {
+            "label": "Jan",
+            "value": null
+          },
+          {
+            "label": "Feb",
+            "value": -8.289986996098838
+          },
+          {
+            "label": "Mar",
+            "value": -11.76156418354079
+          },
+          {
+            "label": "Apr",
+            "value": null
+          },
+          {
+            "label": "May",
+            "value": -18.292154312960566
+          }
+        ]
+      },
+      {
+        "key": "Lean mass",
+        "unit": "lb",
+        "delta": -5.690666666666672,
+        "points": [
+          {
+            "label": "Jun",
+            "value": 0
+          },
+          {
+            "label": "Jul",
+            "value": null
+          },
+          {
+            "label": "Aug",
+            "value": 0.15234863956782582
+          },
+          {
+            "label": "Sep",
+            "value": 1.3223450161407093
+          },
+          {
+            "label": "Oct",
+            "value": 1.1413795375189488
+          },
+          {
+            "label": "Nov",
+            "value": null
+          },
+          {
+            "label": "Dec",
+            "value": null
+          },
+          {
+            "label": "Jan",
+            "value": null
+          },
+          {
+            "label": "Feb",
+            "value": -1.7705382436260668
+          },
+          {
+            "label": "Mar",
+            "value": -2.700100232464027
+          },
+          {
+            "label": "Apr",
+            "value": null
+          },
+          {
+            "label": "May",
+            "value": -4.686299053516925
+          }
+        ]
+      }
+    ],
+    "note": "Normalized to % change since the first in-window reading; only signed deltas are surfaced."
+  },
+  "sleep": {
+    "monthly": [
+      {
+        "month": "2025-06",
+        "label": "Jun",
+        "avgHours": 7.841666666666668
+      },
+      {
+        "month": "2025-07",
+        "label": "Jul",
+        "avgHours": 6.858055555555554
+      },
+      {
+        "month": "2025-08",
+        "label": "Aug",
+        "avgHours": 6.72275641025641
+      },
+      {
+        "month": "2025-09",
+        "label": "Sep",
+        "avgHours": 6.523563218390803
+      },
+      {
+        "month": "2025-10",
+        "label": "Oct",
+        "avgHours": 6.8207478632478615
+      },
+      {
+        "month": "2025-11",
+        "label": "Nov",
+        "avgHours": 6.608386752136753
+      },
+      {
+        "month": "2025-12",
+        "label": "Dec",
+        "avgHours": 6.6845370370370345
+      },
+      {
+        "month": "2026-01",
+        "label": "Jan",
+        "avgHours": 6.074017857142858
+      },
+      {
+        "month": "2026-02",
+        "label": "Feb",
+        "avgHours": 6.751875
+      },
+      {
+        "month": "2026-03",
+        "label": "Mar",
+        "avgHours": 7.142768199233718
+      },
+      {
+        "month": "2026-04",
+        "label": "Apr",
+        "avgHours": 7.003814814814816
+      },
+      {
+        "month": "2026-05",
+        "label": "May",
+        "avgHours": 7.049108796296295
+      }
+    ],
+    "avgNightlyHours": 6.839925981370597,
+    "pctNights7plus": 47.90419161676647,
+    "totalNights": 334
+  }
+}

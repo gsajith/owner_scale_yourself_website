@@ -13,7 +13,8 @@
     "mine:github": "node scripts/mine-github.mjs",
     "pdf": "node scripts/pdf.mjs",
     "mine:agent": "node scripts/mine-agent.mjs",
-    "mine:training": "node scripts/mine-training.mjs"
+    "mine:training": "node scripts/mine-training.mjs",
+    "mine:body": "node scripts/mine-body.mjs"
   },
   "dependencies": {
     "@visx/axis": "^3.12.0",
