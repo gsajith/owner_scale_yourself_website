@@ -1,0 +1,975 @@
+{
+  "note": "From Letterboxd diary. Posters fetched from Letterboxd CDN and vendored under public/posters/. Favorites auto-selected (rating >= 4.5); finalized in #6.",
+  "window": {
+    "from": "2025-06-01",
+    "to": "2026-05-31"
+  },
+  "monthly": [
+    {
+      "month": "2025-06",
+      "label": "Jun",
+      "count": 8
+    },
+    {
+      "month": "2025-07",
+      "label": "Jul",
+      "count": 11
+    },
+    {
+      "month": "2025-08",
+      "label": "Aug",
+      "count": 7
+    },
+    {
+      "month": "2025-09",
+      "label": "Sep",
+      "count": 6
+    },
+    {
+      "month": "2025-10",
+      "label": "Oct",
+      "count": 8
+    },
+    {
+      "month": "2025-11",
+      "label": "Nov",
+      "count": 14
+    },
+    {
+      "month": "2025-12",
+      "label": "Dec",
+      "count": 12
+    },
+    {
+      "month": "2026-01",
+      "label": "Jan",
+      "count": 14
+    },
+    {
+      "month": "2026-02",
+      "label": "Feb",
+      "count": 12
+    },
+    {
+      "month": "2026-03",
+      "label": "Mar",
+      "count": 8
+    },
+    {
+      "month": "2026-04",
+      "label": "Apr",
+      "count": 11
+    },
+    {
+      "month": "2026-05",
+      "label": "May",
+      "count": 5
+    }
+  ],
+  "favorites": [
+    {
+      "title": "Knives Out",
+      "year": "2019",
+      "rating": 5,
+      "monthLabel": "Dec",
+      "poster": "posters/knives-out-2019.jpg"
+    },
+    {
+      "title": "Inglourious Basterds",
+      "year": "2009",
+      "rating": 5,
+      "monthLabel": "Dec",
+      "poster": "posters/inglourious-basterds-2009.jpg"
+    },
+    {
+      "title": "Over the Garden Wall",
+      "year": "2014",
+      "rating": 5,
+      "monthLabel": "Oct",
+      "poster": "posters/over-the-garden-wall-2014.jpg"
+    },
+    {
+      "title": "Chungking Express",
+      "year": "1994",
+      "rating": 5,
+      "monthLabel": "Oct",
+      "poster": "posters/chungking-express-1994.jpg"
+    },
+    {
+      "title": "The Handmaiden",
+      "year": "2016",
+      "rating": 5,
+      "monthLabel": "Aug",
+      "poster": null
+    },
+    {
+      "title": "A Different Man",
+      "year": "2024",
+      "rating": 5,
+      "monthLabel": "Jul",
+      "poster": null
+    },
+    {
+      "title": "Obsession",
+      "year": "2025",
+      "rating": 4.5,
+      "monthLabel": "May",
+      "poster": "posters/obsession-2025.jpg"
+    },
+    {
+      "title": "Red Rooms",
+      "year": "2023",
+      "rating": 4.5,
+      "monthLabel": "Apr",
+      "poster": "posters/red-rooms-2023.jpg"
+    },
+    {
+      "title": "Lee Cronin's The Mummy",
+      "year": "2026",
+      "rating": 4.5,
+      "monthLabel": "Apr",
+      "poster": "posters/lee-cronin-s-the-mummy-2026.jpg"
+    },
+    {
+      "title": "Rental Family",
+      "year": "2025",
+      "rating": 4.5,
+      "monthLabel": "Mar",
+      "poster": "posters/rental-family-2025.jpg"
+    },
+    {
+      "title": "Kokuho",
+      "year": "2025",
+      "rating": 4.5,
+      "monthLabel": "Feb",
+      "poster": "posters/kokuho-2025.jpg"
+    },
+    {
+      "title": "Pride & Prejudice",
+      "year": "2005",
+      "rating": 4.5,
+      "monthLabel": "Feb",
+      "poster": null
+    }
+  ],
+  "films": [
+    {
+      "title": "Friendship",
+      "year": "2024",
+      "rating": 2.5,
+      "monthLabel": "Jun",
+      "poster": "posters/friendship-2024.jpg"
+    },
+    {
+      "title": "Bring Her Back",
+      "year": "2025",
+      "rating": 3.5,
+      "monthLabel": "Jun",
+      "poster": "posters/bring-her-back-2025.jpg"
+    },
+    {
+      "title": "The Phoenician Scheme",
+      "year": "2025",
+      "rating": 4,
+      "monthLabel": "Jun",
+      "poster": "posters/the-phoenician-scheme-2025.jpg"
+    },
+    {
+      "title": "Materialists",
+      "year": "2025",
+      "rating": 4,
+      "monthLabel": "Jun",
+      "poster": "posters/materialists-2025.jpg"
+    },
+    {
+      "title": "Materialists",
+      "year": "2025",
+      "rating": 4,
+      "monthLabel": "Jun",
+      "poster": "posters/materialists-2025.jpg"
+    },
+    {
+      "title": "28 Days Later",
+      "year": "2002",
+      "rating": 4,
+      "monthLabel": "Jun",
+      "poster": null
+    },
+    {
+      "title": "28 Weeks Later",
+      "year": "2007",
+      "rating": 4,
+      "monthLabel": "Jun",
+      "poster": "posters/28-weeks-later-2007.jpg"
+    },
+    {
+      "title": "Exhuma",
+      "year": "2024",
+      "rating": 3.5,
+      "monthLabel": "Jun",
+      "poster": "posters/exhuma-2024.jpg"
+    },
+    {
+      "title": "28 Years Later",
+      "year": "2025",
+      "rating": 4.5,
+      "monthLabel": "Jul",
+      "poster": "posters/28-years-later-2025.jpg"
+    },
+    {
+      "title": "F1",
+      "year": "2025",
+      "rating": 4,
+      "monthLabel": "Jul",
+      "poster": "posters/f1-2025.jpg"
+    },
+    {
+      "title": "KPop Demon Hunters",
+      "year": "2025",
+      "rating": 3.5,
+      "monthLabel": "Jul",
+      "poster": "posters/kpop-demon-hunters-2025.jpg"
+    },
+    {
+      "title": "Rogue One: A Star Wars Story",
+      "year": "2016",
+      "rating": 3.5,
+      "monthLabel": "Jul",
+      "poster": "posters/rogue-one-a-star-wars-story-2016.jpg"
+    },
+    {
+      "title": "Jurassic World Rebirth",
+      "year": "2025",
+      "rating": 2,
+      "monthLabel": "Jul",
+      "poster": "posters/jurassic-world-rebirth-2025.jpg"
+    },
+    {
+      "title": "Superman",
+      "year": "2025",
+      "rating": 4.5,
+      "monthLabel": "Jul",
+      "poster": "posters/superman-2025.jpg"
+    },
+    {
+      "title": "Bulbbul",
+      "year": "2020",
+      "rating": 3.5,
+      "monthLabel": "Jul",
+      "poster": "posters/bulbbul-2020.jpg"
+    },
+    {
+      "title": "Farewell My Concubine",
+      "year": "1993",
+      "rating": 4,
+      "monthLabel": "Jul",
+      "poster": "posters/farewell-my-concubine-1993.jpg"
+    },
+    {
+      "title": "The God of Cookery",
+      "year": "1996",
+      "rating": 3.5,
+      "monthLabel": "Jul",
+      "poster": "posters/the-god-of-cookery-1996.jpg"
+    },
+    {
+      "title": "A Different Man",
+      "year": "2024",
+      "rating": 5,
+      "monthLabel": "Jul",
+      "poster": null
+    },
+    {
+      "title": "Eddington",
+      "year": "2025",
+      "rating": 4.5,
+      "monthLabel": "Jul",
+      "poster": "posters/eddington-2025.jpg"
+    },
+    {
+      "title": "The Handmaiden",
+      "year": "2016",
+      "rating": 5,
+      "monthLabel": "Aug",
+      "poster": null
+    },
+    {
+      "title": "The Cat Returns",
+      "year": "2002",
+      "rating": 4,
+      "monthLabel": "Aug",
+      "poster": "posters/the-cat-returns-2002.jpg"
+    },
+    {
+      "title": "Together",
+      "year": "2025",
+      "rating": 4.5,
+      "monthLabel": "Aug",
+      "poster": "posters/together-2025.jpg"
+    },
+    {
+      "title": "The Fantastic 4: First Steps",
+      "year": "2025",
+      "rating": 1.5,
+      "monthLabel": "Aug",
+      "poster": "posters/the-fantastic-4-first-steps-2025.jpg"
+    },
+    {
+      "title": "Weapons",
+      "year": "2025",
+      "rating": 4,
+      "monthLabel": "Aug",
+      "poster": "posters/weapons-2025.jpg"
+    },
+    {
+      "title": "Shin Godzilla",
+      "year": "2016",
+      "rating": 4,
+      "monthLabel": "Aug",
+      "poster": null
+    },
+    {
+      "title": "Honey Don't!",
+      "year": "2025",
+      "rating": 3,
+      "monthLabel": "Aug",
+      "poster": "posters/honey-don-t-2025.jpg"
+    },
+    {
+      "title": "Cloud",
+      "year": "2024",
+      "rating": 3.5,
+      "monthLabel": "Sep",
+      "poster": "posters/cloud-2024.jpg"
+    },
+    {
+      "title": "Jilla",
+      "year": "2014",
+      "rating": 2,
+      "monthLabel": "Sep",
+      "poster": "posters/jilla-2014.jpg"
+    },
+    {
+      "title": "Spider-Man 3",
+      "year": "2007",
+      "rating": 3.5,
+      "monthLabel": "Sep",
+      "poster": null
+    },
+    {
+      "title": "Woman of the Hour",
+      "year": "2023",
+      "rating": 1.5,
+      "monthLabel": "Sep",
+      "poster": "posters/woman-of-the-hour-2023.jpg"
+    },
+    {
+      "title": "The Sun Is Also a Star",
+      "year": "2019",
+      "rating": 0.5,
+      "monthLabel": "Sep",
+      "poster": "posters/the-sun-is-also-a-star-2019.jpg"
+    },
+    {
+      "title": "Blade Runner 2049",
+      "year": "2017",
+      "rating": 4,
+      "monthLabel": "Sep",
+      "poster": "posters/blade-runner-2049-2017.jpg"
+    },
+    {
+      "title": "Good Boy",
+      "year": "2025",
+      "rating": 2.5,
+      "monthLabel": "Oct",
+      "poster": "posters/good-boy-2025.jpg"
+    },
+    {
+      "title": "The Long Walk",
+      "year": "2025",
+      "rating": 3.5,
+      "monthLabel": "Oct",
+      "poster": "posters/the-long-walk-2025.jpg"
+    },
+    {
+      "title": "The Wedding Banquet",
+      "year": "1993",
+      "rating": 4,
+      "monthLabel": "Oct",
+      "poster": "posters/the-wedding-banquet-1993.jpg"
+    },
+    {
+      "title": "Chungking Express",
+      "year": "1994",
+      "rating": 5,
+      "monthLabel": "Oct",
+      "poster": "posters/chungking-express-1994.jpg"
+    },
+    {
+      "title": "Crimson Peak",
+      "year": "2015",
+      "rating": 3.5,
+      "monthLabel": "Oct",
+      "poster": null
+    },
+    {
+      "title": "Superman",
+      "year": "2025",
+      "rating": 4.5,
+      "monthLabel": "Oct",
+      "poster": "posters/superman-2025.jpg"
+    },
+    {
+      "title": "Over the Garden Wall",
+      "year": "2014",
+      "rating": 5,
+      "monthLabel": "Oct",
+      "poster": "posters/over-the-garden-wall-2014.jpg"
+    },
+    {
+      "title": "Roofman",
+      "year": "2025",
+      "rating": 4,
+      "monthLabel": "Oct",
+      "poster": "posters/roofman-2025.jpg"
+    },
+    {
+      "title": "Bugonia",
+      "year": "2025",
+      "rating": 4.5,
+      "monthLabel": "Nov",
+      "poster": "posters/bugonia-2025.jpg"
+    },
+    {
+      "title": "If I Had Legs I'd Kick You",
+      "year": "2025",
+      "rating": 4.5,
+      "monthLabel": "Nov",
+      "poster": "posters/if-i-had-legs-i-d-kick-you-2025.jpg"
+    },
+    {
+      "title": "Predator: Badlands",
+      "year": "2025",
+      "rating": 2.5,
+      "monthLabel": "Nov",
+      "poster": "posters/predator-badlands-2025.jpg"
+    },
+    {
+      "title": "Frankenstein",
+      "year": "2025",
+      "rating": 2.5,
+      "monthLabel": "Nov",
+      "poster": "posters/frankenstein-2025.jpg"
+    },
+    {
+      "title": "The Worst Person in the World",
+      "year": "2021",
+      "rating": 4.5,
+      "monthLabel": "Nov",
+      "poster": "posters/the-worst-person-in-the-world-2021.jpg"
+    },
+    {
+      "title": "Clue",
+      "year": "1985",
+      "rating": 2.5,
+      "monthLabel": "Nov",
+      "poster": "posters/clue-1985.jpg"
+    },
+    {
+      "title": "Red Rooms",
+      "year": "2023",
+      "rating": 4.5,
+      "monthLabel": "Nov",
+      "poster": "posters/red-rooms-2023.jpg"
+    },
+    {
+      "title": "Bugonia",
+      "year": "2025",
+      "rating": 4.5,
+      "monthLabel": "Nov",
+      "poster": "posters/bugonia-2025.jpg"
+    },
+    {
+      "title": "It Was Just an Accident",
+      "year": "2025",
+      "rating": 4.5,
+      "monthLabel": "Nov",
+      "poster": "posters/it-was-just-an-accident-2025.jpg"
+    },
+    {
+      "title": "No Other Choice",
+      "year": "2025",
+      "rating": 4.5,
+      "monthLabel": "Nov",
+      "poster": "posters/no-other-choice-2025.jpg"
+    },
+    {
+      "title": "No Other Choice",
+      "year": "2025",
+      "rating": 4.5,
+      "monthLabel": "Nov",
+      "poster": null
+    },
+    {
+      "title": "Concrete Utopia",
+      "year": "2023",
+      "rating": 2.5,
+      "monthLabel": "Nov",
+      "poster": "posters/concrete-utopia-2023.jpg"
+    },
+    {
+      "title": "Wake Up Dead Man",
+      "year": "2025",
+      "rating": 4,
+      "monthLabel": "Nov",
+      "poster": "posters/wake-up-dead-man-2025.jpg"
+    },
+    {
+      "title": "Glass Onion",
+      "year": "2022",
+      "rating": 3.5,
+      "monthLabel": "Nov",
+      "poster": "posters/glass-onion-2022.jpg"
+    },
+    {
+      "title": "i hate myself :)",
+      "year": "2013",
+      "rating": 3,
+      "monthLabel": "Dec",
+      "poster": "posters/i-hate-myself-2013.jpg"
+    },
+    {
+      "title": "Sentimental Value",
+      "year": "2025",
+      "rating": 4.5,
+      "monthLabel": "Dec",
+      "poster": "posters/sentimental-value-2025.jpg"
+    },
+    {
+      "title": "Hamnet",
+      "year": "2025",
+      "rating": 4,
+      "monthLabel": "Dec",
+      "poster": "posters/hamnet-2025.jpg"
+    },
+    {
+      "title": "Hamilton",
+      "year": "2020",
+      "rating": 4,
+      "monthLabel": "Dec",
+      "poster": "posters/hamilton-2020.jpg"
+    },
+    {
+      "title": "Inglourious Basterds",
+      "year": "2009",
+      "rating": 5,
+      "monthLabel": "Dec",
+      "poster": "posters/inglourious-basterds-2009.jpg"
+    },
+    {
+      "title": "Kill Bill: The Whole Bloody Affair",
+      "year": "2004",
+      "rating": 4.5,
+      "monthLabel": "Dec",
+      "poster": "posters/kill-bill-the-whole-bloody-affair-2004.jpg"
+    },
+    {
+      "title": "Avatar: Fire and Ash",
+      "year": "2025",
+      "rating": 3.5,
+      "monthLabel": "Dec",
+      "poster": "posters/avatar-fire-and-ash-2025.jpg"
+    },
+    {
+      "title": "It Ends",
+      "year": "2025",
+      "rating": 4.5,
+      "monthLabel": "Dec",
+      "poster": "posters/it-ends-2025.jpg"
+    },
+    {
+      "title": "Zootopia",
+      "year": "2016",
+      "rating": 3,
+      "monthLabel": "Dec",
+      "poster": "posters/zootopia-2016.jpg"
+    },
+    {
+      "title": "Zootopia 2",
+      "year": "2025",
+      "rating": 2.5,
+      "monthLabel": "Dec",
+      "poster": "posters/zootopia-2-2025.jpg"
+    },
+    {
+      "title": "Knives Out",
+      "year": "2019",
+      "rating": 5,
+      "monthLabel": "Dec",
+      "poster": "posters/knives-out-2019.jpg"
+    },
+    {
+      "title": "Wake Up Dead Man",
+      "year": "2025",
+      "rating": 4,
+      "monthLabel": "Dec",
+      "poster": "posters/wake-up-dead-man-2025.jpg"
+    },
+    {
+      "title": "Caught Stealing",
+      "year": "2025",
+      "rating": 3.5,
+      "monthLabel": "Jan",
+      "poster": "posters/caught-stealing-2025.jpg"
+    },
+    {
+      "title": "The Conjuring: Last Rites",
+      "year": "2025",
+      "rating": 2.5,
+      "monthLabel": "Jan",
+      "poster": "posters/the-conjuring-last-rites-2025.jpg"
+    },
+    {
+      "title": "Oh, Hi!",
+      "year": "2025",
+      "rating": 4,
+      "monthLabel": "Jan",
+      "poster": "posters/oh-hi-2025.jpg"
+    },
+    {
+      "title": "Lagaan: Once Upon a Time in India",
+      "year": "2001",
+      "rating": 4.5,
+      "monthLabel": "Jan",
+      "poster": "posters/lagaan-once-upon-a-time-in-india-2001.jpg"
+    },
+    {
+      "title": "Ip Man",
+      "year": "2008",
+      "rating": 4,
+      "monthLabel": "Jan",
+      "poster": "posters/ip-man-2008.jpg"
+    },
+    {
+      "title": "Death of a Unicorn",
+      "year": "2025",
+      "rating": 2,
+      "monthLabel": "Jan",
+      "poster": "posters/death-of-a-unicorn-2025.jpg"
+    },
+    {
+      "title": "A Nice Indian Boy",
+      "year": "2024",
+      "rating": 3,
+      "monthLabel": "Jan",
+      "poster": "posters/a-nice-indian-boy-2024.jpg"
+    },
+    {
+      "title": "28 Years Later: The Bone Temple",
+      "year": "2026",
+      "rating": 4,
+      "monthLabel": "Jan",
+      "poster": "posters/28-years-later-the-bone-temple-2026.jpg"
+    },
+    {
+      "title": "The Long Walk",
+      "year": "2025",
+      "rating": 3,
+      "monthLabel": "Jan",
+      "poster": "posters/the-long-walk-2025.jpg"
+    },
+    {
+      "title": "Now You See Me 2",
+      "year": "2016",
+      "rating": 2.5,
+      "monthLabel": "Jan",
+      "poster": "posters/now-you-see-me-2-2016.jpg"
+    },
+    {
+      "title": "Sore: A Wife from the Future",
+      "year": "2025",
+      "rating": 4,
+      "monthLabel": "Jan",
+      "poster": "posters/sore-a-wife-from-the-future-2025.jpg"
+    },
+    {
+      "title": "The Secret World of Arrietty",
+      "year": "2010",
+      "rating": 4,
+      "monthLabel": "Jan",
+      "poster": null
+    },
+    {
+      "title": "Ip Man 2",
+      "year": "2010",
+      "rating": 3.5,
+      "monthLabel": "Jan",
+      "poster": "posters/ip-man-2-2010.jpg"
+    },
+    {
+      "title": "Marty Supreme",
+      "year": "2025",
+      "rating": 4,
+      "monthLabel": "Jan",
+      "poster": "posters/marty-supreme-2025.jpg"
+    },
+    {
+      "title": "Send Help",
+      "year": "2026",
+      "rating": 4,
+      "monthLabel": "Feb",
+      "poster": "posters/send-help-2026.jpg"
+    },
+    {
+      "title": "Now You See Me: Now You Don't",
+      "year": "2025",
+      "rating": 2,
+      "monthLabel": "Feb",
+      "poster": "posters/now-you-see-me-now-you-don-t-2025.jpg"
+    },
+    {
+      "title": "Gone Girl",
+      "year": "2014",
+      "rating": 4.5,
+      "monthLabel": "Feb",
+      "poster": "posters/gone-girl-2014.jpg"
+    },
+    {
+      "title": "Unless Something Goes Terribly Wrong",
+      "year": "2025",
+      "rating": 4,
+      "monthLabel": "Feb",
+      "poster": "posters/unless-something-goes-terribly-wrong-2025.jpg"
+    },
+    {
+      "title": "Challengers",
+      "year": "2024",
+      "rating": 4.5,
+      "monthLabel": "Feb",
+      "poster": "posters/challengers-2024.jpg"
+    },
+    {
+      "title": "Dracula",
+      "year": "2025",
+      "rating": 3.5,
+      "monthLabel": "Feb",
+      "poster": "posters/dracula-2025.jpg"
+    },
+    {
+      "title": "Keeper",
+      "year": "2025",
+      "rating": 3,
+      "monthLabel": "Feb",
+      "poster": "posters/keeper-2025.jpg"
+    },
+    {
+      "title": "Wuthering Heights",
+      "year": "2026",
+      "rating": 3,
+      "monthLabel": "Feb",
+      "poster": "posters/wuthering-heights-2026.jpg"
+    },
+    {
+      "title": "Pride & Prejudice",
+      "year": "2005",
+      "rating": 4.5,
+      "monthLabel": "Feb",
+      "poster": null
+    },
+    {
+      "title": "How to Make a Killing",
+      "year": "2026",
+      "rating": 3,
+      "monthLabel": "Feb",
+      "poster": "posters/how-to-make-a-killing-2026.jpg"
+    },
+    {
+      "title": "Kokuho",
+      "year": "2025",
+      "rating": 4.5,
+      "monthLabel": "Feb",
+      "poster": "posters/kokuho-2025.jpg"
+    },
+    {
+      "title": "Point Break",
+      "year": "1991",
+      "rating": 4,
+      "monthLabel": "Feb",
+      "poster": "posters/point-break-1991.jpg"
+    },
+    {
+      "title": "The Bride!",
+      "year": "2026",
+      "rating": 1.5,
+      "monthLabel": "Mar",
+      "poster": "posters/the-bride-2026.jpg"
+    },
+    {
+      "title": "Marie Antoinette",
+      "year": "2006",
+      "rating": 3.5,
+      "monthLabel": "Mar",
+      "poster": null
+    },
+    {
+      "title": "Hoppers",
+      "year": "2026",
+      "rating": 3,
+      "monthLabel": "Mar",
+      "poster": "posters/hoppers-2026.jpg"
+    },
+    {
+      "title": "The Secret Agent",
+      "year": "2025",
+      "rating": 4,
+      "monthLabel": "Mar",
+      "poster": "posters/the-secret-agent-2025.jpg"
+    },
+    {
+      "title": "Rental Family",
+      "year": "2025",
+      "rating": 4.5,
+      "monthLabel": "Mar",
+      "poster": "posters/rental-family-2025.jpg"
+    },
+    {
+      "title": "Project Hail Mary",
+      "year": "2026",
+      "rating": 4,
+      "monthLabel": "Mar",
+      "poster": "posters/project-hail-mary-2026.jpg"
+    },
+    {
+      "title": "undertone",
+      "year": "2025",
+      "rating": 2.5,
+      "monthLabel": "Mar",
+      "poster": "posters/undertone-2025.jpg"
+    },
+    {
+      "title": "Talk to Me",
+      "year": "2022",
+      "rating": 3.5,
+      "monthLabel": "Mar",
+      "poster": "posters/talk-to-me-2022.jpg"
+    },
+    {
+      "title": "Exit 8",
+      "year": "2025",
+      "rating": 3,
+      "monthLabel": "Apr",
+      "poster": "posters/exit-8-2025.jpg"
+    },
+    {
+      "title": "The Drama",
+      "year": "2026",
+      "rating": 4,
+      "monthLabel": "Apr",
+      "poster": "posters/the-drama-2026.jpg"
+    },
+    {
+      "title": "Hidden Blade",
+      "year": "2023",
+      "rating": 4,
+      "monthLabel": "Apr",
+      "poster": "posters/hidden-blade-2023.jpg"
+    },
+    {
+      "title": "Faces of Death",
+      "year": "2026",
+      "rating": 4,
+      "monthLabel": "Apr",
+      "poster": "posters/faces-of-death-2026.jpg"
+    },
+    {
+      "title": "Slumdog Millionaire",
+      "year": "2008",
+      "rating": 4,
+      "monthLabel": "Apr",
+      "poster": "posters/slumdog-millionaire-2008.jpg"
+    },
+    {
+      "title": "Speed Racer",
+      "year": "2008",
+      "rating": 3.5,
+      "monthLabel": "Apr",
+      "poster": "posters/speed-racer-2008.jpg"
+    },
+    {
+      "title": "Lee Cronin's The Mummy",
+      "year": "2026",
+      "rating": 4.5,
+      "monthLabel": "Apr",
+      "poster": "posters/lee-cronin-s-the-mummy-2026.jpg"
+    },
+    {
+      "title": "The Mummy",
+      "year": "1999",
+      "rating": 4,
+      "monthLabel": "Apr",
+      "poster": null
+    },
+    {
+      "title": "Red Rooms",
+      "year": "2023",
+      "rating": 4.5,
+      "monthLabel": "Apr",
+      "poster": "posters/red-rooms-2023.jpg"
+    },
+    {
+      "title": "The Devil Wears Prada",
+      "year": "2006",
+      "rating": 3.5,
+      "monthLabel": "Apr",
+      "poster": "posters/the-devil-wears-prada-2006.jpg"
+    },
+    {
+      "title": "Raise the Red Lantern",
+      "year": "1991",
+      "rating": 4,
+      "monthLabel": "Apr",
+      "poster": null
+    },
+    {
+      "title": "Hokum",
+      "year": "2026",
+      "rating": 3,
+      "monthLabel": "May",
+      "poster": "posters/hokum-2026.jpg"
+    },
+    {
+      "title": "Obsession",
+      "year": "2025",
+      "rating": 4.5,
+      "monthLabel": "May",
+      "poster": "posters/obsession-2025.jpg"
+    },
+    {
+      "title": "The Conjuring",
+      "year": "2013",
+      "rating": 3,
+      "monthLabel": "May",
+      "poster": "posters/the-conjuring-2013.jpg"
+    },
+    {
+      "title": "I Love Boosters",
+      "year": "2026",
+      "rating": 4,
+      "monthLabel": "May",
+      "poster": "posters/i-love-boosters-2026.jpg"
+    },
+    {
+      "title": "Passenger",
+      "year": "2026",
+      "rating": 2.5,
+      "monthLabel": "May",
+      "poster": "posters/passenger-2026.jpg"
+    }
+  ],
+  "totals": {
+    "films": 116,
+    "withPoster": 104,
+    "avgRating": 3.668103448275862,
+    "favorites": 12
+  }
+}
