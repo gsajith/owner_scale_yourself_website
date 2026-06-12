@@ -4,6 +4,10 @@ node_modules/
 # Build output
 dist/
 *.local
+*.tsbuildinfo
+
+# Generated PDF (the canonical submission PDF is produced in #16)
+report.pdf
 
 # Secrets
 .env

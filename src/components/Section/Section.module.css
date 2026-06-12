@@ -1,0 +1,34 @@
+.section {
+  padding: clamp(3rem, 8vh, 7rem) 1.5rem;
+}
+
+.inner {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.eyebrow {
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.5rem;
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  line-height: 1.1;
+  margin: 0;
+}
+
+@media print {
+  .section {
+    padding: 2rem 1.5rem;
+    break-inside: avoid;
+  }
+}
