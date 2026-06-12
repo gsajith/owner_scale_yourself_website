@@ -1,0 +1,77 @@
+.lede {
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  line-height: 1.6;
+  color: var(--ink-soft);
+  max-width: 42rem;
+  margin: 0 0 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: minmax(7rem, 10rem) repeat(12, minmax(0, 1fr));
+  gap: 3px;
+  align-items: center;
+}
+
+.corner {
+  /* empty top-left cell */
+}
+
+.colHead {
+  font-size: 0.7rem;
+  text-align: center;
+  color: var(--ink-soft);
+  padding-bottom: 2px;
+}
+
+.rowLabel {
+  font-size: 0.8rem;
+  color: var(--ink);
+  padding-right: 0.6rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cell,
+.cellEmpty {
+  height: 26px;
+  border-radius: 2px;
+}
+
+.cell {
+  border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.cellEmpty {
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 3px,
+    rgba(0, 0, 0, 0.06) 3px,
+    rgba(0, 0, 0, 0.06) 4px
+  );
+}
+
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: minmax(5.5rem, 7rem) repeat(12, minmax(0, 1fr));
+  }
+  .colHead {
+    font-size: 0.6rem;
+  }
+  .rowLabel {
+    font-size: 0.7rem;
+  }
+}
+
+@media print {
+  .grid {
+    break-inside: avoid;
+  }
+  .cell,
+  .cellEmpty {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
