@@ -23,9 +23,9 @@ interface BodyData {
 const data = bodyData as BodyData
 
 const COLORS: Record<string, string> = {
-  Weight: '#e8552d',
-  'Body fat': '#2f6fb0',
-  'Lean mass': '#3f9b6f',
+  Weight: 'var(--accent)',
+  'Body fat': 'var(--pop-orange)',
+  'Lean mass': 'var(--pop-blue)',
 }
 
 function fmtDelta(d: number | null, unit: string) {
@@ -101,7 +101,7 @@ export default function Body() {
         <LineChart
           data={sleepData}
           height={220}
-          color="#2f6fb0"
+          color="var(--pop-blue)"
           ariaLabel="Average nightly sleep hours per month"
         />
       </Reveal>

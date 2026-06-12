@@ -1,10 +1,19 @@
 :root {
-  --bg: #faf8f4;
-  --ink: #1a1a1a;
-  --ink-soft: #444444;
-  /* Placeholder accent — the real Owner-derived accent is set in #15 (design pass). */
-  --accent: #e8552d;
-  --font-serif: Georgia, 'Times New Roman', serif;
+  /* Palette sourced from owner.com's 2026 brand CSS. */
+  --bg: #f9f3ed; /* warm cream */
+  --ink: #2c2c2c; /* charcoal */
+  --ink-soft: #6f6a63; /* muted warm gray */
+  --line: #ddd6ce; /* warm hairline */
+  --accent: #088924; /* Owner brand green (chart fills) */
+  --accent-label: #077a20; /* darker green for small text on cream (AA) */
+  --accent-deep: #0a3d18; /* deep green (dark hero) */
+  --accent-soft: #5cb87a; /* lighter green for text on dark backgrounds (AA) */
+  /* Secondary pops from Owner's palette, used in multi-series charts. */
+  --pop-orange: #d73815;
+  --pop-blue: #3898ec;
+
+  --font-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua',
+    Georgia, serif;
   --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif;
 }
@@ -36,9 +45,9 @@ img {
    only needs to neutralize motion and set page geometry. */
 @media print {
   @page {
-    margin: 1.5cm;
+    margin: 1.4cm;
   }
   body {
-    background: #fff;
+    background: var(--bg);
   }
 }
