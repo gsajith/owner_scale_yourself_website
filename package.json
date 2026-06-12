@@ -12,7 +12,8 @@
     "prepare-assets": "node scripts/prepare-assets.mjs",
     "mine:github": "node scripts/mine-github.mjs",
     "pdf": "node scripts/pdf.mjs",
-    "mine:agent": "node scripts/mine-agent.mjs"
+    "mine:agent": "node scripts/mine-agent.mjs",
+    "mine:training": "node scripts/mine-training.mjs"
   },
   "dependencies": {
     "@visx/axis": "^3.12.0",
