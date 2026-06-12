@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.local
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Raw personal-data exports (only aggregated JSON is committed)
+data/raw/
+
+# OS / editor
+.DS_Store
+*.log
