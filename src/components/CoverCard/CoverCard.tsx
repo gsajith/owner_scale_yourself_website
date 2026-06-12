@@ -32,7 +32,6 @@ export default function CoverCard({
             className={styles.cover}
             src={`${import.meta.env.BASE_URL}${cover}`}
             alt={title}
-            loading="lazy"
           />
         ) : (
           <div className={styles.placeholder}>

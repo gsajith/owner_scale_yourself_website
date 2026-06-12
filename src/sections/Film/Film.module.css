@@ -1,0 +1,73 @@
+.lede {
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  line-height: 1.6;
+  color: var(--ink-soft);
+  max-width: 42rem;
+  margin: 0 0 2rem;
+}
+
+.stats {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, max-content);
+  gap: 2.5rem;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  border-top: 2px solid var(--accent);
+  padding-top: 0.75rem;
+}
+
+.stats strong {
+  font-family: var(--font-serif);
+  font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+  line-height: 1.1;
+}
+
+.stats span {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.h3 {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  margin: 2rem 0 1rem;
+}
+
+.favorites {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.wall {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
+  gap: 6px;
+}
+
+.poster {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 3px;
+  display: block;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+@media print {
+  .favorites,
+  .stats {
+    break-inside: avoid;
+  }
+  .poster {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
