@@ -63,6 +63,10 @@ const browser = await chromium.launch()
 try {
   const page = await browser.newPage()
   await page.goto(`http://localhost:${port}/`, { waitUntil: 'networkidle' })
+  // Charts measure their container before rendering SVG — wait for them so the PDF
+  // captures fully-rendered visualizations rather than empty boxes.
+  await page.waitForSelector('svg', { timeout: 5000 }).catch(() => {})
+  await page.waitForTimeout(300)
   await page.emulateMedia({ media: 'print' })
   await page.pdf({
     path: outPdf,
