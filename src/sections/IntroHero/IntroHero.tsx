@@ -12,7 +12,7 @@ export default function IntroHero() {
             src={intro.portraitSrc}
             alt={intro.portraitAlt}
             width={720}
-            height={855}
+            height={857}
           />
         </Reveal>
         <div className={styles.copy}>
