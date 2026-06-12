@@ -1,0 +1,113 @@
+.lede {
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  line-height: 1.6;
+  color: var(--ink-soft);
+  max-width: 42rem;
+  margin: 0 0 2rem;
+}
+
+.stats {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  border-top: 2px solid var(--accent);
+  padding-top: 0.75rem;
+}
+
+.stats strong {
+  font-family: var(--font-serif);
+  font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+  line-height: 1.1;
+}
+
+.stats span {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: start;
+}
+
+.col {
+  min-width: 0;
+}
+
+.h3 {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  margin: 0 0 1rem;
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills li {
+  display: grid;
+  grid-template-columns: 9.5rem 1fr 2rem;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.82rem;
+}
+
+.skillName {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.track {
+  height: 10px;
+  background: rgba(0, 0, 0, 0.07);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.fill {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  border-radius: 3px;
+}
+
+.skillCount {
+  text-align: right;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 720px) {
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media print {
+  .grid {
+    break-inside: avoid;
+  }
+  /* Ensure skill bars print (printBackground is on) */
+  .fill {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
