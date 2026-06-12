@@ -1,0 +1,106 @@
+{
+  "note": "From StoryGraph export. Covers fetched from OpenLibrary and vendored under public/covers/.",
+  "window": {
+    "from": "2025-06-01",
+    "to": "2026-05-31"
+  },
+  "monthly": [
+    {
+      "month": "2025-06",
+      "label": "Jun",
+      "count": 0
+    },
+    {
+      "month": "2025-07",
+      "label": "Jul",
+      "count": 0
+    },
+    {
+      "month": "2025-08",
+      "label": "Aug",
+      "count": 0
+    },
+    {
+      "month": "2025-09",
+      "label": "Sep",
+      "count": 0
+    },
+    {
+      "month": "2025-10",
+      "label": "Oct",
+      "count": 0
+    },
+    {
+      "month": "2025-11",
+      "label": "Nov",
+      "count": 0
+    },
+    {
+      "month": "2025-12",
+      "label": "Dec",
+      "count": 0
+    },
+    {
+      "month": "2026-01",
+      "label": "Jan",
+      "count": 0
+    },
+    {
+      "month": "2026-02",
+      "label": "Feb",
+      "count": 0
+    },
+    {
+      "month": "2026-03",
+      "label": "Mar",
+      "count": 0
+    },
+    {
+      "month": "2026-04",
+      "label": "Apr",
+      "count": 1
+    },
+    {
+      "month": "2026-05",
+      "label": "May",
+      "count": 0
+    }
+  ],
+  "books": [
+    {
+      "title": "The Poet Empress",
+      "author": "Shen Tao",
+      "rating": 4,
+      "month": "2026-04",
+      "monthLabel": "Apr",
+      "dateRead": "2026-04-18",
+      "cover": "covers/the-poet-empress.jpg"
+    }
+  ],
+  "currentlyReading": [
+    {
+      "title": "Howard Zinn on History",
+      "author": "Howard Zinn",
+      "rating": null,
+      "cover": "covers/howard-zinn-on-history.jpg"
+    },
+    {
+      "title": "The World Is On Fire But We're Still Buying Shoes",
+      "author": "Alec Leach",
+      "rating": null,
+      "cover": null
+    },
+    {
+      "title": "Neuromancer",
+      "author": "William Gibson",
+      "rating": null,
+      "cover": "covers/neuromancer.jpg"
+    }
+  ],
+  "totals": {
+    "books": 1,
+    "currentlyReading": 3,
+    "withCover": 3,
+    "avgRating": 4
+  }
+}

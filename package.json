@@ -14,7 +14,8 @@
     "pdf": "node scripts/pdf.mjs",
     "mine:agent": "node scripts/mine-agent.mjs",
     "mine:training": "node scripts/mine-training.mjs",
-    "mine:body": "node scripts/mine-body.mjs"
+    "mine:body": "node scripts/mine-body.mjs",
+    "mine:reading": "node scripts/mine-reading.mjs"
   },
   "dependencies": {
     "@visx/axis": "^3.12.0",
