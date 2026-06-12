@@ -24,9 +24,10 @@ export default function ChartAnnotation({
   title,
   subtitle,
 }: ChartAnnotationProps) {
-  const boxX = x + dx
-  const boxY = y + dy
   const boxH = subtitle ? 50 : 32
+  const boxX = x + dx
+  // Clamp so the box never clips above the SVG top, even on a max-height bar.
+  const boxY = Math.max(4, y + dy)
   // Connector runs from the data point to the box's right-middle edge.
   const connectorX = boxX + BOX_W
   const connectorY = boxY + boxH / 2

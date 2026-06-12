@@ -115,7 +115,7 @@ const data = {
   inflection: {
     month: inflectionMonth,
     defaultLabel: 'AI-agent adoption',
-    note: 'Auto-detected as the largest month-over-month commit jump; wording finalized in #6 (curation).',
+    note: 'Auto-detected as the largest month-over-month jump in total contributions; wording finalized in #6 (curation).',
   },
   publicReposCreatedInWindow: publicCreatedInWindow,
   privateReposCreatedInWindowCount: privateCreatedInWindowCount,
