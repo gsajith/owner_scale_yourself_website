@@ -11,7 +11,7 @@ Issues and PRDs for this repo live as GitHub issues in `gsajith/owner_scale_your
 - **Apply / remove labels**: `gh issue edit <number> --add-label "..."` / `--remove-label "..."`
 - **Close**: `gh issue close <number> --comment "..."`
 
-Infer the repo from `git remote -v` — `gh` does this automatically when run inside a clone. This working directory is not yet a clone; run the `gh` commands from a checkout of `gsajith/owner_scale_yourself_website`, or pass `--repo gsajith/owner_scale_yourself_website` explicitly.
+Infer the repo from `git remote -v` — `gh` does this automatically when run inside this clone (`origin` → `gsajith/owner_scale_yourself_website`).
 
 ## When a skill says "publish to the issue tracker"
 
