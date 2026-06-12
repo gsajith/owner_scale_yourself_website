@@ -94,8 +94,12 @@ export default function Overview() {
         </p>
       </Reveal>
       <Reveal>
-        <div className={styles.grid} role="table" aria-label="Month-by-month overview">
-          <div className={styles.corner} />
+        <div
+          className={styles.grid}
+          role="img"
+          aria-label="Month-by-month heatmap of every metric across June 2025 to May 2026; darker cells are higher values, hatched cells are months with no data"
+        >
+          <div className={styles.corner} aria-hidden="true" />
           {windowMonths.map((c) => (
             <div key={c.key} className={styles.colHead}>
               {c.label}
