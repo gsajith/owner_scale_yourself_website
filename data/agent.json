@@ -1,0 +1,108 @@
+{
+  "generatedNote": "Mined from ~/.claude transcripts, metadata-only (timestamps, token counts, tool/MCP/skill names, project names). No message contents read or stored. The report project itself is excluded.",
+  "dataHorizon": {
+    "first": "2026-05",
+    "last": "2026-06",
+    "note": "Local Claude Code transcript history begins here — this is a snapshot of the recent agent-adoption period, not a full-year trend."
+  },
+  "monthly": [
+    {
+      "month": "2026-05",
+      "sessions": 3,
+      "tokens": 1104729,
+      "toolCalls": 525,
+      "mcpCalls": 0,
+      "projects": 2
+    },
+    {
+      "month": "2026-06",
+      "sessions": 97,
+      "tokens": 5128397,
+      "toolCalls": 2034,
+      "mcpCalls": 16,
+      "projects": 2
+    }
+  ],
+  "cumulativeToolkit": [
+    {
+      "month": "2026-05",
+      "count": 4
+    },
+    {
+      "month": "2026-06",
+      "count": 11
+    }
+  ],
+  "totals": {
+    "sessions": 99,
+    "tokens": 6233126,
+    "toolCalls": 2559,
+    "distinctTools": 20,
+    "distinctMcpServers": 1,
+    "distinctSkills": 10,
+    "distinctProjects": 3
+  },
+  "topProjects": [
+    {
+      "label": "AutoBuyer_New",
+      "sessions": 84
+    },
+    {
+      "label": "secure-bookmarks",
+      "sessions": 3
+    },
+    {
+      "label": "comparison-shop",
+      "sessions": 1
+    }
+  ],
+  "otherProjectsCount": 0,
+  "topSkills": [
+    {
+      "name": "vercel-react-best-practices",
+      "count": 9
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "count": 4
+    },
+    {
+      "name": "frontend-design:frontend-design",
+      "count": 3
+    },
+    {
+      "name": "superpowers:systematic-debugging",
+      "count": 3
+    },
+    {
+      "name": "superpowers:using-git-worktrees",
+      "count": 2
+    },
+    {
+      "name": "superpowers:writing-plans",
+      "count": 2
+    },
+    {
+      "name": "superpowers:brainstorming",
+      "count": 2
+    },
+    {
+      "name": "to-issues",
+      "count": 1
+    },
+    {
+      "name": "work-issue",
+      "count": 1
+    },
+    {
+      "name": "superpowers:subagent-driven-development",
+      "count": 1
+    }
+  ],
+  "topMcpServers": [
+    {
+      "name": "plugin_playwright_playwright",
+      "count": 16
+    }
+  ]
+}
