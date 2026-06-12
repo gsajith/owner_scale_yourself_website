@@ -26,7 +26,7 @@ All sources are personally owned — no employer/confidential data (satisfies th
 | GitHub (`gsajith`, personal) | public repos in detail; private as counts-only/month | `gh` / GraphQL `contributionsCollection` | **Me** |
 | Claude transcripts (`~/.claude`) | sessions, tokens, tools/MCPs, **skills built**, project breadth | metadata-only, curated project labels | **Me** |
 | Apple Health | weight/BMI/body-fat/lean mass, activity/steps, **sleep**, workout types (cardio/badminton/walking) | `export.zip` → parse `export.xml` | **You — [#1](../../issues/1)** |
-| Supabase workout app | lifting: frequency, volume, PRs | read-only query → aggregated `data/workouts.json` | **You — [#4](../../issues/4)** |
+| Supabase workout app (recovered) | lifting: frequency, volume, PRs | recovered from paused-project dump → `data/raw/reptracker_*.csv` | **Done — [#4](../../issues/4)** ✅ |
 | StoryGraph | books finished, dates, ratings, pages | CSV export | **You — [#2](../../issues/2)** |
 | Letterboxd | films watched, dates, ratings, favorites | export ZIP (`diary/watched/ratings.csv`) | **You — [#3](../../issues/3)** |
 
@@ -67,7 +67,7 @@ All sources are personally owned — no employer/confidential data (satisfies th
 - [ ] [#1](../../issues/1) Apple Health export → `data/raw/`
 - [ ] [#2](../../issues/2) StoryGraph CSV → `data/raw/`
 - [ ] [#3](../../issues/3) Letterboxd ZIP → `data/raw/`
-- [ ] [#4](../../issues/4) Supabase read-only creds → `.env`
+- [x] [#4](../../issues/4) Workout data — ✅ recovered from paused-Supabase dump (`data/raw/reptracker_*.csv`). ⚠️ lifting only covers **Jun & Jul 2025** within the window; Aug 2025+ empty (DB was paused). Backend migration to Neon deferred.
 - [ ] [#5](../../issues/5) Portrait photo + framing intro line
 
 ### Phase 1 — Extraction (ME)
